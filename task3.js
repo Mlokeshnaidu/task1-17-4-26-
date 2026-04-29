@@ -146,7 +146,6 @@ function* offerGenerator() {
     yield "50% cashback";
     yield "Try again";
     yield "No offer";
-
 }
  
 let offers = offerGenerator();
