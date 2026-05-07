@@ -3,12 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Task1(java)</title>
+    <title>Fake Store API Products</title>
+    <link rel="stylesheet" href="./finaltask.png">
+    <link rel="stylesheet" href="./final task.css">
 </head>
 <body>
+
+    //Linking the pages
     <script src="./task1.js"></script>
     <script src="./task2.js"></script>
     <script src="./task3.js"></script>
     <script src="./task4.js"></script>
+    <script src="./final task.js"></script>
+
+
+    //final task html code 
+    <header>
+        <h1>API Fetched Data</h1>
+        
+        <div class="searchBox">
+            <input type="text" id="search" placeholder="search products">
+            <button class="searchIcon">search</button>
+        </div>
+        
+        <select id="category">
+            <option value="all">All</option>
+        </select>
+        
+        <select class="sort">
+            <option value="">Sort</option>
+            <option value="low">Low -> High</option>
+            <option value="high">High -> Low</option>
+        </select>
+
+        <button id="viewCart">
+            View Cart
+            <span id="cartCount">0</span>
+        </button>
+    </header>
+    
+    <h2 id="status">Loading.......</h2>
+    <div class="products"></div>
+
+    <script src="./Script.js"></script>
+
+
 </body>
 </html>
